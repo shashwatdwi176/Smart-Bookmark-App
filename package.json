@@ -1,7 +1,22 @@
 {
   "name": "smart-bookmark-app",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
+  "description": "Real-time bookmark manager with Google OAuth and Supabase",
+  "author": "Your Name",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YOUR-USERNAME/smart-bookmark-app.git"
+  },
+  "keywords": [
+    "nextjs",
+    "supabase",
+    "react",
+    "typescript",
+    "bookmarks",
+    "real-time",
+    "oauth"
+  ],
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -34,5 +49,9 @@
     "jest-environment-jsdom": "^30.2.0",
     "tailwindcss": "^4",
     "typescript": "^5"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
   }
 }
